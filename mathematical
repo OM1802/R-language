@@ -1,63 +1,16 @@
+a<-readline(prompt="enter the first value")
+b<-readline(prompt="enter the second value")
+a<-as.integer(a)
+b<-as.integer(b)
+x<-a+b
+print(paste("SUM OF TWO NUMBERS ARE:", sum(x)))
 
-R version 4.3.2 (2023-10-31 ucrt) -- "Eye Holes"
-Copyright (C) 2023 The R Foundation for Statistical Computing
-Platform: x86_64-w64-mingw32/x64 (64-bit)
+y<-a-b
+print(paste("DIFFERENCE OF TWO NUMBERS ARE:",(y)))
 
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type 'license()' or 'licence()' for distribution details.
+z<-a*b
+print(paste("PRODUCT OF TWO NUMBERS ARE:",(z)))
 
-  Natural language support but running in an English locale
 
-R is a collaborative project with many contributors.
-Type 'contributors()' for more information and
-'citation()' on how to cite R or R packages in publications.
 
-Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
 
-> print("HELLOWORLD")
-[1] "HELLOWORLD"
-> a=10
-> b=20
-> print(a+b, b-a, a*b, a%b, a/b)
-Error: unexpected input in "print(a+b, b-a, a*b, a%b, a/b)"
-> c=a+b
-> d=b-a
-> e=a*b
-> print(c) print(d) print(e)
-Error: unexpected symbol in "print(c) print"
-> print(c)
-[1] 30
-> 
-> a<- readline(prompt="enter the value of a")
-enter the value of a10
-> a<-readline(prompt="enter the first value")
-enter the first valueb<-readline(prompt="enter the second value")
-> a<-as.integer(a)
-Warning message:
-NAs introduced by coercion 
-> b<-as.integer(b)
-> x<-a+b
-> print(paste("SUM OF TWO NUMBERS ARE:", sum(x)))
-[1] "SUM OF TWO NUMBERS ARE: NA"
-> 
-> 
-> 
-> a<-readline(prompt="enter the first value")
-enter the first value15
-> b<-readline(prompt="enter the second value")
-enter the second value16
-> a<-as.integer(a)
-> b<-as.integer(b)
-> x<-a+b
-> print(paste("SUM OF TWO NUMBERS ARE:", sum(x)))
-[1] "SUM OF TWO NUMBERS ARE: 31"
-> y<-a-b
-> print(paste("DIFFERENCE OF TWO NUMBERS ARE:",(y)))
-[1] "DIFFERENCE OF TWO NUMBERS ARE: -1"
-> z<-a*b
-> print(paste("PRODUCT OF TWO NUMBERS ARE:",(z)))
-[1] "PRODUCT OF TWO NUMBERS ARE: 240"
-> 
