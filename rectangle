@@ -1,5 +1,5 @@
 rect<-function(l,b){
-+ area_rect=2*(l+b)
++ area_rect=2*(l*b)
 + print(area_rect)
 + }
 >  lt<-as.integer(readline(prompt="ENTER THE LENGTH: "))
