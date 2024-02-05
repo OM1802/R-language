@@ -1,8 +1,7 @@
-> circle<-function(r){
-+ area=3.14*(r*r)
-+ print(area)
-+ }
-  > r<-as.integer(readline(prompt="ENTER THE RADIUS: "))
-ENTER THE RADIUS: 5
-> circle(r)
+circle<-function(r){
+area=3.14*(r*r)
+print(area)
+}
+r<-as.integer(readline(prompt="ENTER THE RADIUS: "))
+circle(r)
 
