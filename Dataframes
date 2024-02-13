@@ -2,14 +2,14 @@
 df=data.frame()
 
 #2
- a<-c(1,2,3,4)
- b<-c(34,45,56,78)
- c<-c(101,102,103,104)
- d<-c(1001,1002,1003,1004)
- df1<-data.frame(a,b,c,d)
+a<-c(1,2,3,4)
+b<-c(34,45,56,78)
+c<-c(101,102,103,104)
+d<-c(1001,1002,1003,1004)
+df1<-data.frame(a,b,c,d)
  
 #3
- print(str(df1))
+print(str(df1))
  
 #4
  
@@ -19,13 +19,14 @@ data.frame(df2$number)
 #5
 
 name=c('OM', 'ANUBHAV', 'HARSH')
- age=c(21,22,23)
- place=c('SILIGURI', 'JAUNPUR', 'JAUNPUR')
- df3<-data.frame(name,age,place)
- exdata<-df3[1:2, ]
- print(exdata)
+age=c(21,22,23)
+place=c('SILIGURI', 'JAUNPUR', 'JAUNPUR')
+df3<-data.frame(name,age,place)
+exdata<-df3[1:2, ]
+print(exdata)
 
  #6
+
  exam_data = data.frame(
    name = c('Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'),
    score = c(12.5, 9, 16.5, 12, 9, 20, 14.5, 13.5, 8, 19),
@@ -39,10 +40,12 @@ name=c('OM', 'ANUBHAV', 'HARSH')
  print(result)
  
  #7
+ 
  exam_data$country = c("USA","USA","USA","USA","USA","USA","USA","USA","USA","USA")
  print(exam_data)
  
  #8
+ 
  exam_data = data.frame(
    name = c('Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'),
    score = c(12.5, 9, 16.5, 12, 9, 20, 14.5, 13.5, 8, 19),
@@ -62,6 +65,7 @@ name=c('OM', 'ANUBHAV', 'HARSH')
  print(exam_data)
  
  #9
+ 
  exam_data = data.frame(
    name = c('Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'),
    score = c(12.5, 9, 16.5, 12, 9, 20, 14.5, 13.5, 8, 19),
