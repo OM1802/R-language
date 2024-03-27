@@ -1,3 +1,4 @@
+#code to make a graph using values given in a data frame 
 product.data <- data.frame(
   productname = c("PEN_BLUE", "PENCIL", "ERASER", "SHARPNER", "COPY", "BOOK", "COMPASS", "SCALE",
                   "PAPERCUTTER", "CARDBOARD", "THERMOCOL", "CANDY", "CADBURY", "SHOE_PLOISH",
