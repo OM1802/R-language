@@ -1,0 +1,6 @@
+library(scatterplot3d)
+scatterplot3d(Breast_Cancer$radius_mean, Breast_Cancer$texture_mean, Breast_Cancer$perimeter_mean, 
+              main="3D Scatter Plot", 
+              xlab="Mean Radius", 
+              ylab="Mean Texture", 
+              zlab="Mean Perimeter")
