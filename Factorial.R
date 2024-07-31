@@ -1,4 +1,4 @@
-
+#R code to find the factorial of a number
  facto<-function(n){
   factorial<-1
   if(n==0 || n==1){
