@@ -1,3 +1,4 @@
+#code for multi dimensional data types or matrices
 matrix1<-matrix(c(1, 2, 3, 4, 5, 6), nrow = 2, ncol = 3)
 matrix2<-matrix(c(5, 6, 7, 8, 9, 10), nrow = 2, ncol = 3)
 
