@@ -1,4 +1,4 @@
-# code to print prime number between 100-200
+# code to print prime number between the range of  100-200
 is_prime <- function(n) {
   if (n <= 1) return(FALSE)
   if (n <= 3) return(TRUE)
