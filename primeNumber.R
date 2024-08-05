@@ -1,3 +1,4 @@
+#R code to find if a number is prime number or not
 a<-as.integer(readline(prompt="ENTER THE NUMBER: "))
 prime<-TRUE
 if(a<1){
