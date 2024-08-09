@@ -1,3 +1,4 @@
+#R code demonstrating arithmetical functions
 a<-readline(prompt="enter the first value")
 b<-readline(prompt="enter the second value")
 a<-as.integer(a)
