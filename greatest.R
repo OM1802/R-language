@@ -1,3 +1,4 @@
+#R code to find greatest of all numbers 
 a<- readline(prompt="enter the value of a")
 a<-as.integer(a)
 b<- readline(prompt="enter the value of b")
