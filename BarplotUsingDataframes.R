@@ -17,7 +17,8 @@ barplot(height = product.data$productprice,
         main = "Product Prices",
         xlab = "Product",
         ylab = "Price")
-
+# R code to make pie chart using in-built function
+pie(10,20,70)
 for (i in 1:nrow(product.data)) {
   legend("topright", legend = product.data$productname[i], fill = colors[i], bty = "n", pt.cex = 10)
 }
