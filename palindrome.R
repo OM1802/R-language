@@ -1,3 +1,4 @@
+#R code to check if a number is palindrome 
 is_palindrome <- function(num) {
   # Convert the number to a string
   num_str <- as.character(num)
