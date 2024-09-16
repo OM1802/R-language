@@ -1,0 +1,78 @@
+#N: total no fo object in population 
+#K: total no of success in population
+#n: number of samples
+#k: no of objects you want to find probability of
+x<-3 
+m<-20
+n<-80
+k<-10
+probability<-dhyper(x,m,n,k)#exactly
+print(probability)
+
+x<-3 
+m<-20
+n<-80
+k<-10
+probability<-phyper(x,m,n,k, lower.tail=TRUE)#at most 3 defective
+print(probability)
+
+x<-3 
+m<-20
+n<-80
+k<-10
+probability<-qhyper(x,m,n,k)#cumulative probability of 0.8
+print(probability)
+
+n<-3 
+m<-20
+n_fail<-80
+k<-10
+probability<-rhyper(n,m,n_fail,k)#cumulative probability of 0.8
+print(probability)
+
+
+
+
+#probability of selecting x=14 red marbles from a sample of k=20 marbles from an urn containing m=70 red marbles and n=30 green marbles
+x=14
+m=70
+n=30
+k=20
+dhyper(x=x,m=m,n=n,k=k)
+
+#plants 6 bulbs selected at random from a box of 5 tuilps and 4 daffodils, probability of planting 4 daffodil and 2 tulip
+x=2
+m=4
+n=5
+k=6
+dhyper(x=x,m=m,n=n,k=k)
+
+x=2
+m=5
+n=4
+k=6
+dhyper(x=x,m=m,n=n,k=k)
+
+#probability that 3 or less units are defective
+phyper(q=3, m=5, n=8, k=4)
+
+sum(dhyper(x=c(0:3), m=5, n=8, k=4))#same result for mass function
+
+phyper(q=2, m=5, n=8, k=4, lower.tail= FALSE)#probability that 3 or less units are defective
+
+1- phyper(q=2, m=5, n=8, k=4, lower.tail= TRUE)#or returning the area in the left tail of the distribution
+
+sum(dhyper(x=c(3:13), m=5, n=8, k=4))#same result for mass function
+
+
+
+qhyper(p=0.90, m=5, n=11, k=4)#16 device, 5 defective, testing 4. no of defective if probability of defective is 90(0.90)%
+
+rhyper(nn=100, m=5, n=11, k=4)#need to generate 100 random obs from hyper geometry m=5,n=11,k=4
+
+dhyper(x=2,m=6,n=4,k=3)
+
+dhyper(2,6,9,5)
+
+phyper(2, 10, 40, 5)
+
